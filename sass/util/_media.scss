@@ -1,0 +1,10 @@
+$break: (
+  "tab": 740px,
+  "pc": 1280px,
+);
+
+@mixin breakpoint($size) {
+  @media (min-width: map-get($break, $size)) {
+    @content;
+  }
+}

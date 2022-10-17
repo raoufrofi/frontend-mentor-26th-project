@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Expenses chart component</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__heading">
+        <p class="header__heading-description">My balance</p>
+        <h2 class="header__heading-amount">$921.48</h2>
+      </div>
+      <a href="index.html" title="Logo" class="header__logo">
+        <img src="images/logo.svg" alt="" />
+      </a>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <h1 class="main__heading">Spending - Last 7 days</h1>
+      <ul class="main-list"></ul>
+
+      <ul class="main__total">
+        <li class="total-first">
+          <p class="total-first__heading">Total this month</p>
+          <h3 class="total-first__amount">$478.33</h3>
+        </li>
+        <li class="total-last">
+          <h3 class="total-last__amount">+2.4%</h3>
+          <p class="total-last__heading">from last month</p>
+        </li>
+      </ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
